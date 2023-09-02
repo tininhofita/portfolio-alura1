@@ -66,6 +66,7 @@ body {
 .apresentacao_img {
     width: 40%;
     border-radius: 20px;
+    height: auto;
 }
 
 .estilo-botao {
