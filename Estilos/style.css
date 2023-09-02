@@ -64,9 +64,10 @@ body {
 }
 
 .apresentacao_img {
-    width: 40%;
-    border-radius: 20px;
+    max-width: 40%;
     height: auto;
+    border-radius: 20px;
+    padding: 5px;
 }
 
 .estilo-botao {
