@@ -3,15 +3,16 @@
 /*padroniza os campos como variavel*/
 :root {
     --cor-primaria: #000000;
-    --cor-secundaria: #f6f6f6;
-    --cor-terciaria: #22d4fd;
-    --cor-hover: #272727;
+    --cor-secundaria: #DFE4F8;
+    --cor-terciaria: #950D17;
+    --cor-hover: #2F060A;
 
     --font-primaria: 'Krona One', sans-serif;
     --font-sencundaria: 'Montserrat', sans-serif;
 
     --tamanho-da-font-titulo: 2.5rem;
     --tamanho-da-font-texto: 1.5rem;
+    --tamanho-da-font-rodape: 1.0rem;
 }
 
 * {
@@ -63,7 +64,8 @@ body {
 }
 
 .apresentacao_img {
-    width: 50%;
+    width: 40%;
+    border-radius: 20px;
 }
 
 .estilo-botao {
@@ -80,6 +82,12 @@ body {
     color: var(--cor-secundaria);
     font-family: var(--font-sencundaria);
     font-weight: 600;
+}
+
+.icone-botton {
+    width: 10%;
+    height: auto;
+    padding: 5px;
 }
 
 .estilo-botao:hover {
@@ -114,14 +122,26 @@ body {
     text-decoration: none; 
 }
 
+.link-menu:hover {
+    color: var(--cor-secundaria);
+}
+
 .footer {
     background-color: var(--cor-terciaria);
     font-weight: 400;
     font-family: var(--font-sencundaria);
-    font-size: var(--tamanho-da-font-texto);
+    font-size: var(--tamanho-da-font-rodape);
     color: #000000;
     text-align: center;
     padding: 24px;
+}
+
+.destaque-nome {
+    color: var(--cor-primaria)
+}
+
+.destaque-nome:hover {
+    color: var(--cor-secundaria)
 }
     
 
