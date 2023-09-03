@@ -6,6 +6,10 @@
     --cor-secundaria: #DFE4F8;
     --cor-terciaria: #950D17;
     --cor-hover: #2F060A;
+/*cores para tela - Sobre Mim*/
+
+    --cor-destaque1: #070C73;
+    --cor-destaque2: #1A24D9;
 
     --font-primaria: 'Krona One', sans-serif;
     --font-sencundaria: 'Montserrat', sans-serif;
@@ -64,7 +68,7 @@ body {
 }
 
 .apresentacao_img {
-    max-width: 40%;
+    max-width: 100%;
     height: auto;
     border-radius: 20px;
     padding: 5px;
@@ -128,6 +132,20 @@ body {
     color: var(--cor-secundaria);
 }
 
+.link-menu2 {
+    color: var(--cor-secundaria);
+    font-family: var(--font-sencundaria);
+    font-size: var(--tamanho-da-font-texto);
+    font-weight: 600;
+    text-decoration: none; 
+}
+
+.link-menu2:hover {
+    color: var(--cor-destaque2)
+}
+
+
+
 .footer {
     background-color: var(--cor-terciaria);
     font-weight: 400;
@@ -145,6 +163,26 @@ body {
 .destaque-nome:hover {
     color: var(--cor-secundaria)
 }
+
+.footer2 {
+    background-color: var(--cor-destaque1);
+    font-weight: 400;
+    font-family: var(--font-sencundaria);
+    font-size: var(--tamanho-da-font-rodape);
+    color: var(--cor-secundaria);
+    text-align: center;
+    padding: 24px;
+}
+
+.destaque-nome2 {
+    color: var(--cor-secundaria)
+}
+
+.destaque-nome2:hover {
+    color: var(--cor-terciaria)
+}
+
+
     
 
 @media (max-width: 1200px) {
